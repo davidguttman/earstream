@@ -5,7 +5,7 @@ Streaming audio reactivity in the browser using WebRTC + Web Audio API
 ## Example ##
 
 ```js
-var earstream = require('../')
+var earstream = require('earstream')
 
 var nBars = 12
 
