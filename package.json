@@ -1,0 +1,42 @@
+{
+  "name": "earstream",
+  "version": "1.0.1",
+  "description": "Streaming audio reactivity in the browser using WebRTC + Web Audio API",
+  "main": "index.js",
+  "scripts": {
+    "example": "beefy example/index.js"
+  },
+  "author": "David Guttman <david@guttman.io> (http://davidguttman.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^6.1.0",
+    "coffeeify": "^0.7.0",
+    "event-stream": "^3.1.7",
+    "getusermedia": "^1.1.0",
+    "raf": "^2.0.4"
+  },
+  "devDependencies": {
+    "beefy": "^2.1.1"
+  },
+  "browserify": {
+    "transform": [
+      "coffeeify"
+    ]
+  },
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidguttman/earstream.git"
+  },
+  "keywords": [
+    "webrtc",
+    "web",
+    "audio"
+  ],
+  "bugs": {
+    "url": "https://github.com/davidguttman/earstream/issues"
+  },
+  "homepage": "https://github.com/davidguttman/earstream"
+}
